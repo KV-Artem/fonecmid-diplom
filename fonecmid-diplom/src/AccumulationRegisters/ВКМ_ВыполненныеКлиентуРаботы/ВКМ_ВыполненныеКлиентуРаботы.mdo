@@ -8,10 +8,10 @@
     <recordKeyType typeId="12d0c936-bf08-43f2-99c0-633cb904cbfe" valueTypeId="b71cd618-c99b-4e85-a58b-f29a89634db4"/>
     <recordType typeId="4b945cbc-2b70-45be-bffd-f2393b6f10dd" valueTypeId="25b09f6d-fbb8-4221-a3cb-fc5fa184dace"/>
   </producedTypes>
-  <name>ВыполненныеКлиентуРаботы</name>
+  <name>ВКМ_ВыполненныеКлиентуРаботы</name>
   <synonym>
     <key>ru</key>
-    <value>Выполненные клиенту работы</value>
+    <value>ВКМ выполненные клиенту работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -25,7 +25,8 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>12</precision>
+        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -41,7 +42,8 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>12</precision>
+        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
