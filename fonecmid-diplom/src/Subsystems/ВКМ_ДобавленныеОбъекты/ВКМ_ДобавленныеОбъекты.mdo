@@ -14,4 +14,6 @@
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
 </mdclass:Subsystem>
