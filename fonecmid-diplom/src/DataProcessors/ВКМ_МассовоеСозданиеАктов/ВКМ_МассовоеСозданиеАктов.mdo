@@ -10,6 +10,7 @@
     <value>ВКМ массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
   <attributes uuid="2d6d9d44-91fb-4194-b20d-f2fb015e3e9f">
     <name>Период</name>
     <synonym>
@@ -22,4 +23,54 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <tabularSections uuid="3c8d78a1-9134-4ebd-97d9-d19f61102225">
+    <producedTypes>
+      <objectType typeId="16ae0914-afff-41bc-a29e-ef1f20f432d3" valueTypeId="61412a77-52ed-44b0-933c-3372dcedbb45"/>
+      <rowType typeId="9e855f47-7b65-42b5-8781-173817e045ab" valueTypeId="254b4420-d604-44a2-8510-f2e115731794"/>
+    </producedTypes>
+    <name>АбонентскиеДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонентские договора</value>
+    </synonym>
+    <attributes uuid="555a8116-4c26-49e3-a5ac-4d686b729b6c">
+      <name>АбонентскийДоговор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Абонентский договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ВидДоговора</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбонентскоеОбслуживание</value>
+        </value>
+      </choiceParameters>
+    </attributes>
+    <attributes uuid="a159570b-ebe9-4cd3-aa1c-5de70c52ed22">
+      <name>РеализацияТоваровИУслуг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация товаров и услуг</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b4f45913-00a4-4194-94a6-dafb9aa85b64">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
