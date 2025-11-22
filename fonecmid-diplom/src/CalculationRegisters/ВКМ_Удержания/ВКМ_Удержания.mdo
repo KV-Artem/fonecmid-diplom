@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62fcadab-f04a-4887-a45e-301ab1ff3187">
+  <producedTypes>
+    <selectionType typeId="95530da9-04cf-4981-8131-3aeb8e98a20f" valueTypeId="88214f77-b70c-45d8-be1a-18e1084a29c3"/>
+    <listType typeId="930a1da1-34c3-4646-85ea-2c607cc7f9d4" valueTypeId="cc429e69-5fe1-45c7-a3f2-288ab5599608"/>
+    <managerType typeId="bdf6763e-1b9f-4c11-9dd1-120c28aa5dd3" valueTypeId="beb0c24e-f41e-4a00-ac77-7fb4fa837b9f"/>
+    <recordSetType typeId="3f76e478-9c80-4f84-8340-7cdd985f4d77" valueTypeId="74868b3c-00c3-49f5-8701-c31ccba1113c"/>
+    <recordKeyType typeId="d6962cf8-560e-4636-bc84-d489b1e1251b" valueTypeId="34344bf1-ff15-4c54-8854-f5965cf50992"/>
+    <recordType typeId="f53ec64e-2909-467e-ae16-199877bee33c" valueTypeId="812a333c-ea55-47f8-bd52-643de0789744"/>
+    <recalcsType typeId="bc52f9e5-4349-4e56-9fdb-7f0cb1f38e83" valueTypeId="23a7775a-2f19-4c4a-bbe4-76504842f3d5"/>
+  </producedTypes>
+  <name>ВКМ_Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="806587c1-c123-4f64-821a-e04646d678a4">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="0de811de-fd9e-41c7-96b7-5428ba5bb913">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
+      <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
+      <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="c5c888f8-cfae-4a43-ad14-ca0af375a660">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

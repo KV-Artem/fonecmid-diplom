@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9519ad45-31fe-41c5-953f-1c06e5b99843">
+  <producedTypes>
+    <objectType typeId="2e421f14-1789-42b7-84b6-cc735aa685d9" valueTypeId="7cf43472-8bcc-4e7f-9109-b4b96c438fa7"/>
+    <refType typeId="77064e86-f336-4cbb-abcf-448900e360d0" valueTypeId="d8088521-fd8c-4a9d-8574-f8c11f1789bf"/>
+    <selectionType typeId="13d986fc-ef16-41cc-b0ab-2c1972a1d85b" valueTypeId="8295f854-bb1f-4f5a-8015-3d8e07e1f71b"/>
+    <listType typeId="26401bbe-c8cd-4f21-a05a-1713a808352c" valueTypeId="84b412fa-2d4e-4663-8512-315ef2dafc63"/>
+    <managerType typeId="e450e2fe-d63c-4d27-8c6b-621674f442ef" valueTypeId="aa51e82f-fec8-491f-b802-be3611643f41"/>
+  </producedTypes>
+  <name>ВКМ_НачислениеФиксированныхПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление фиксированных премий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_НачислениеФиксированныхПремий.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Начисление фиксированных премий</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Начисления фиксированных премий</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6e76702c-a30f-414e-bdca-75a040fb91c7">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3ee261a3-6d56-4c8a-97e6-44e0735d8c08">
+    <producedTypes>
+      <objectType typeId="9284d881-4488-44df-a508-534a9d871cf4" valueTypeId="df3c5d40-338a-44e0-b5ff-67667ea8edfe"/>
+      <rowType typeId="0af630df-7259-427a-a8a0-ff0c80b9c4e8" valueTypeId="eec131ae-945f-44d3-be66-d4baa91fa148"/>
+    </producedTypes>
+    <name>Премии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премии</value>
+    </synonym>
+    <attributes uuid="1a46f900-b79b-448d-a46d-eda5da7e6b28">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e6745b7-d6d6-48ce-aac8-4c17715b1fbd">
+      <name>РазмерПремии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер премии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
