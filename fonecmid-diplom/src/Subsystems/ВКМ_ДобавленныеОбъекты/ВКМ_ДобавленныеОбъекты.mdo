@@ -29,4 +29,12 @@
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>AccumulationRegister.ВКМ_Отпуска</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Report.ВКМ_РасчётыССотрудниками</content>
 </mdclass:Subsystem>
