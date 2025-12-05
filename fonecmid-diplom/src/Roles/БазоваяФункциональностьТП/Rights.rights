@@ -6061,6 +6061,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ОценкаПроизводительности.TabularSection.Производительность.Attribute.КлючеваяОперация</name>
 		<right>
 			<name>View</name>
