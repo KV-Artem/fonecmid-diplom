@@ -51,6 +51,7 @@
       <code xsi:type="core:StringValue">
         <value>0001</value>
       </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
     </items>
     <items id="98b28b88-de42-4abf-a2ee-18f02c810f72">
       <name>Отпуск</name>

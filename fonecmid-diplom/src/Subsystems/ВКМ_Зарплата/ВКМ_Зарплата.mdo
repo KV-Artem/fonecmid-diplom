@@ -11,5 +11,7 @@
     <picture>CommonPicture.КоллекцияВидыАктивныхПользователей</picture>
   </picture>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Report.ВКМ_РасчётыССотрудниками</content>
   <subsystems>Документы</subsystems>
 </mdclass:Subsystem>
