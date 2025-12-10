@@ -37,25 +37,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="0de811de-fd9e-41c7-96b7-5428ba5bb913">
-    <name>Реквизит</name>
-    <synonym>
-      <key>ru</key>
-      <value>Реквизит</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
-      <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-      <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </attributes>
   <dimensions uuid="c5c888f8-cfae-4a43-ad14-ca0af375a660">
     <name>Сотрудник</name>
     <synonym>
